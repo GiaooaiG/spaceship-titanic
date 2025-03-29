@@ -6,8 +6,8 @@
 
 ## 参考链接：
 
-[](https://www.kaggle.com/competitions/spaceship-titanic/discussion/567313)
+https://www.kaggle.com/competitions/spaceship-titanic/discussion/567313
 
-[](https://www.kaggle.com/code/samuelcortinhas/spaceship-titanic-a-complete-guide)
+https://www.kaggle.com/code/samuelcortinhas/spaceship-titanic-a-complete-guide
 
-[](https://github.com/AmirFARES/Kaggle-Spaceship-Titanic)
+https://github.com/AmirFARES/Kaggle-Spaceship-Titanic
