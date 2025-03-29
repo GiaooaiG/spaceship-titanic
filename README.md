@@ -15,7 +15,7 @@ https://github.com/AmirFARES/Kaggle-Spaceship-Titanic
 ## 流程
 
 ### 1. 任务理解与数据探索
-   - [ ] 缺失值分析
+   - [x] 缺失值分析
    - [ ] 目标分布检查
    - [ ] 特征关联性分析
 
