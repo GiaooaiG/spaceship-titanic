@@ -11,3 +11,24 @@ https://www.kaggle.com/competitions/spaceship-titanic/discussion/567313
 https://www.kaggle.com/code/samuelcortinhas/spaceship-titanic-a-complete-guide
 
 https://github.com/AmirFARES/Kaggle-Spaceship-Titanic
+
+## 流程
+
+### 1. 任务理解与数据探索
+   - [ ] 缺失值分析
+   - [ ] 目标分布检查
+   - [ ] 特征关联性分析
+
+### 2. 数据预处理与特征工程
+   - [ ] 复合特征拆分（如 PassengerId/Cabin）
+   - [ ] 构造聚合/分组特征
+   - [ ] 数据编码与标准化
+
+### 3. 模型构建与调优
+   - [ ] 集成模型选择（如 XGBoost/LightGBM）
+   - [ ] 超参数优化与验证
+   - [ ] 模型性能评估（准确率/AUC）
+
+### 4. 结果提交与优化
+   - [ ] 生成测试集预测文件
+   - [ ] 模型融合或后处理优化
