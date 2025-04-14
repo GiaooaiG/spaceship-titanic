@@ -86,3 +86,6 @@ RoomService（客房服务）、FoodCourt（美食广场）、ShoppingMall（购
 Name - 乘客的名字和姓氏。
 
 Transported - 乘客是否被传送到了另一个空间。这是目标，也就是您要预测的一栏。
+
+##导入需要的类
+##导入数据
