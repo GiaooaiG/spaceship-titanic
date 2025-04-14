@@ -70,11 +70,19 @@ https://github.com/AmirFARES/Kaggle-Spaceship-Titanic
 PassengerId - 每位乘客的唯一 ID。每个 Id 的形式为 gggg_pp，其中 gggg 表示乘客所在的旅行团，pp 是乘客在旅行团中的编号。团体中的成员通常是家庭成员，但并不总是如此。
 
 母星（HomePlanet）- 乘客出发的星球，通常是其永久居住的星球。
+
 冷冻休眠（CryoSleep）--表示乘客是否选择在航行期间进入休眠状态。处于冷冻睡眠状态的乘客只能待在自己的舱室里。
+
 船舱 - 乘客所在船舱的编号。格式为甲板/编号/边，其中边可以是 P（左舷）或 S（右舷）。
+
 目的地 - 乘客下船后将前往的星球。
+
 年龄 - 乘客的年龄。
+
 VIP - 旅客是否在航行期间支付了特殊 VIP 服务的费用。
+
 RoomService（客房服务）、FoodCourt（美食广场）、ShoppingMall（购物中心）、Spa（水疗中心）、VRDeck（VR甲板） - 乘客在泰坦尼克号飞船上众多豪华设施中的每个设施所支付的费用。
+
 Name - 乘客的名字和姓氏。
+
 Transported - 乘客是否被传送到了另一个空间。这是目标，也就是您要预测的一栏。
