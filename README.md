@@ -89,7 +89,7 @@ Transported - 乘客是否被传送到了另一个空间。这是目标，也就
 
 ### 导入需要的类
 # Core
-import numpy as np
+import numpy as np\n
 import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
