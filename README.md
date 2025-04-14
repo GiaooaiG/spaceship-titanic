@@ -87,6 +87,64 @@ Name - 乘客的名字和姓氏。
 
 Transported - 乘客是否被传送到了另一个空间。这是目标，也就是您要预测的一栏。
 
-## 导入需要的类
+### 导入需要的类
+# Core
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sns
+sns.set(style='darkgrid', font_scale=1.4)
+from imblearn.over_sampling import SMOTE
+import itertools
+import warnings
+warnings.filterwarnings('ignore')
+import plotly.express as px
+import time
 
-## 导入数据
+# Sklearn
+from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV, StratifiedKFold
+from sklearn.metrics import accuracy_score, confusion_matrix, recall_score, precision_score, f1_score
+from sklearn.metrics import roc_auc_score, plot_confusion_matrix, plot_roc_curve, roc_curve
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, OneHotEncoder, LabelEncoder
+from sklearn.feature_selection import mutual_info_classif
+from sklearn.decomposition import PCA
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+import eli5
+from eli5.sklearn import PermutationImportance
+from sklearn.utils import resample
+
+# Models
+from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+from catboost import CatBoostClassifier
+from sklearn.naive_bayes import GaussianNB
+
+### 导入数据
+# Save to df
+train = pd.read_csv('../input/spaceship-titanic/train.csv')
+test = pd.read_csv('../input/spaceship-titanic/test.csv')
+
+# Shape and preview
+print('Train set shape:', train.shape)
+print('Test set shape:', test.shape)
+train.head()
+
+### 探查缺失值
+print('TRAIN SET MISSING VALUES:')
+print(train.isna().sum())
+print('')
+print('TEST SET MISSING VALUES:')
+print(test.isna().sum())
+
+### 探查重复值
+print(f'Duplicates in train set: {train.duplicated().sum()}, ({np.round(100*train.duplicated().sum()/len(train),1)}%)')
+print('')
+print(f'Duplicates in test set: {test.duplicated().sum()}, ({np.round(100*test.duplicated().sum()/len(test),1)}%)')
