@@ -86,8 +86,3 @@ RoomService（客房服务）、FoodCourt（美食广场）、ShoppingMall（购
 Name - 乘客的名字和姓氏。
 
 Transported - 乘客是否被传送到了另一个空间。这是目标，也就是您要预测的一栏。
-
-### 探查重复值
-print(f'Duplicates in train set: {train.duplicated().sum()}, ({np.round(100*train.duplicated().sum()/len(train),1)}%)')
-print('')
-print(f'Duplicates in test set: {test.duplicated().sum()}, ({np.round(100*test.duplicated().sum()/len(test),1)}%)')
