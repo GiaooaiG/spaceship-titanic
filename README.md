@@ -68,6 +68,7 @@ https://github.com/AmirFARES/Kaggle-Spaceship-Titanic
 交叉验证和组合预测
 
 PassengerId - 每位乘客的唯一 ID。每个 Id 的形式为 gggg_pp，其中 gggg 表示乘客所在的旅行团，pp 是乘客在旅行团中的编号。团体中的成员通常是家庭成员，但并不总是如此。
+
 母星（HomePlanet）- 乘客出发的星球，通常是其永久居住的星球。
 冷冻休眠（CryoSleep）--表示乘客是否选择在航行期间进入休眠状态。处于冷冻睡眠状态的乘客只能待在自己的舱室里。
 船舱 - 乘客所在船舱的编号。格式为甲板/编号/边，其中边可以是 P（左舷）或 S（右舷）。
