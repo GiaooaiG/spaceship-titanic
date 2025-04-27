@@ -1,0 +1,26 @@
+{
+    "LogisticRegression": {
+        "C": 0.07479778809561588,
+        "solver": "sag"
+    },
+    "RandomForest": {
+        "n_estimators": 717,
+        "max_depth": 9,
+        "min_samples_split": 15,
+        "min_samples_leaf": 9
+    },
+    "LGBMClassifier": {
+        "n_estimators": 581,
+        "learning_rate": 0.018890699319974818,
+        "max_depth": 9,
+        "num_leaves": 14
+    },
+    "CatBoostClassifier": {
+        "n_estimators": 100,
+        "learning_rate": 0.026195933746741076,
+        "max_depth": 11
+    },
+    "LassoRegression": {
+        "alpha": 0.025455437918100794
+    }
+}
